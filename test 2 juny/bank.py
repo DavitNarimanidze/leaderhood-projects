@@ -70,3 +70,9 @@ def search_account_info():
     if account_number in accounts: # ანუ აქ მოვძებნით აქაუნთი არსებობს თუ არა და თუ არსებობს გამოვიტანთ ინფორმაციას ამ აქაუნთის შესახებ 
         account = accounts[account_number]
         print(f"account number: {account_number} , name: {account["name"]}, balance: {account["balance"]}")
+
+def exit_sytem():
+    print("პროგრამიდან გასვლა")
+    exit()
+
+exit_sytem()
