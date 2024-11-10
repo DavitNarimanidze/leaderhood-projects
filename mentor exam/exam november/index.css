@@ -1,0 +1,320 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ჰედდერი და ნავიგაცია */
+header { 
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { 
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.logo:hover { 
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nav-links { 
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li { 
+    margin: 0 15px;
+}
+
+.nav-links a { 
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover { 
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+/*  მთავარი სექციები */
+.hero { 
+    background: linear-gradient(rgba(0, 0, 0, 0.6));
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1  {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p { 
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button { 
+    background-color: #eea60d;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.hero button:hover { 
+    background-color: #d98b00;
+}
+
+/* feature სექცია */
+
+.features { 
+    padding: 50px 0;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.features h2 { 
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-grid { 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-card { 
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.feature-card:hover { 
+    transform: translateY(-10px);
+    box-shadow: 3px 7px #888888;
+}
+
+/* promotion სექცია  */
+
+.promotions { 
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.promotions h2 { 
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.promotion-card { 
+    background-color: #003366;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+/* footer ეხლაააა */
+
+
+footer  {
+    background-color: #003366;
+    color: #e8e8e9;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.footer-links { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links li { 
+    margin: 0 10px;
+}
+
+.footer-links a { 
+    color: #1486ff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover { 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.758);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.facebook { 
+    margin-top: 100px;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+.facebook:hover { 
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+}
+.instagram { 
+    margin-top: 100px;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+
+}
+.instagram:hover { 
+    background-color: white;
+    color: pink;
+    border-radius: 15px;
+}
+
+.youtube { 
+    margin-top: 100px;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.youtube:hover { 
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+}
+
+.discord { 
+    margin-top: 100px;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.discord:hover { 
+    background-color: white;
+    /* color: darkblue; */
+    border-radius: 15px;
+}
+
+
+
+.products-html { 
+    padding-top: 60px 0;
+    text-align: center;
+}
+
+.products-html h1 { 
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.products-html-grid { 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products-html-card { 
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.products-html-card:hover  { 
+    transform: translateY(-10px);
+}
+
+.product-html-card h2 { 
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.product-html-card p { 
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.learn-more { 
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.learn-more:hover { 
+    background-color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#reviews { 
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.review { 
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px ;
+}
+
+.review h2 { 
+    margin-top: 0;
+}

@@ -18,5 +18,6 @@ def alarm(seconds):
 
         print(f"{CLEAR_AND_RETURN}{minutes_left:02d}:{seconds_left:02d}")
 
+    
     playsound("alarm.mp3")
 alarm(10)

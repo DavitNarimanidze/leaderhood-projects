@@ -1,11 +1,9 @@
 import random
 from words import word_list
 
-
 def get_word():
     word = random.choice(word_list) #რანდომად ვირჩევთ სიტყვას
     return word.upper()
-
 
 def play(word):
     word_completion = "_" * len(word) #დაიბეჭდება იმდენი _ რამდენი ასოცაა სიტყვაში გამოსაცნობი
@@ -16,7 +14,6 @@ def play(word):
     print("Let's play Hangman!")
     print(display_hangman(tries))
     print(word_completion)
-
 
     while not guessed and tries > 0: 
         guess = input("Please guess a letter or word: ").upper()
@@ -58,7 +55,6 @@ def play(word):
         print("Congrats, you guessed the word! You win!")
     else:
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
-
 
 def display_hangman(tries):
     stages = [  # საბოლოო მდგომარეობა თავი ტანი ორივე ხელი და ორივე ფეხიც
